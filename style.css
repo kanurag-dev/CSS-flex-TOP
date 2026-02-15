@@ -109,3 +109,69 @@ p,h2{
     color: #1F2937;
     text-align: center;
 }
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 18px;
+    gap: 18px;
+}
+.testimony{
+    background-color: #E5E7EB;
+}
+.testimonial p {
+    color: #1F2937;
+    font-weight: 1;
+    font-style: italic;  
+}
+.review{
+    font-size: 20px;
+
+}
+.reviewer-name{
+    text-align: right;
+}
+.cta-box{
+    display: flex;
+
+    background-color: #3882F6;
+    margin: 10px auto;
+    border-radius: 0.4rem;
+    padding: 28px 68px;
+    gap: 18px;
+
+}
+.cta-text p,h5{
+    color: #E5E7EB;
+    
+}
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+}
+.signup-txt{
+    font-size: 18px;
+}
+.cta-time{
+    font-size: 18px;
+}
+
+.cta{
+    display: flex;
+}
+.cta-box a{
+    border: 1px solid white;
+}
+.footer{
+    background-color: #1F2937;
+    padding: 2rem 0;
+}
+
+.trademark{
+    text-align: center;
+    color: #F9FaF8;
+
+}
